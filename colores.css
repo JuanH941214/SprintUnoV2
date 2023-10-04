@@ -1,0 +1,99 @@
+/* hi-res laptops and desktops */
+*{
+    margin: 4px;
+  }
+  body {
+    max-width: 1200px
+  }
+  
+  h1{
+    background-color: beige;
+    margin: 30px;
+  }
+  
+  .primer-parrafo {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding:1em
+    
+  }
+  
+    .sub-parrafo{
+      background: tomato;
+      display: flex;
+      justify-content: space-around;
+      flex: 1;
+      flex-direction: row;   
+  
+    }
+    .sub-parrafo2{
+      background: yellowgreen;
+      color: white;
+      flex: 1 1 auto;
+    }
+      .caja-grande{
+        flex: 2 1 auto;
+        background: azure;
+      }
+  
+   
+  
+    .segundo-parrafo {
+      color: wheat;
+      background: black;
+      flex-grow: 1;
+      display: flex;
+      margin-top: 10px;
+      padding: 1em;
+    }
+  
+      .caja-derecha {
+        background: tomato;
+        flex: 2 1 auto;
+        justify-content: flex-start;
+  
+      }
+      .caja-izquierda {
+        background: turquoise;
+        flex: 3 1 auto;
+        justify-content: space-around;
+        display: flex;
+        flex-flow:row wrap;
+      }
+        .pequeno{
+          flex: 1 1 43%;
+        }
+       
+        .grande{
+          flex: 1 1 100%;
+          background: white;
+        }
+  .tercer-parrafo{
+    display: flex;
+    background: black;
+    margin-top: 10px;
+    padding: 1em;
+  }
+  .pie-pagina{
+    background: azure;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .segundo-parrafo{flex-direction: column;}
+    .segundo-parrafo{background: yellow;}
+    
+  }
+  
+  
+  @media (min-width: 400px) and (max-width: 767px) {
+    .sub-parrafo{flex-direction: column;}
+    .segundo-parrafo{flex-direction: column;}
+    .segundo-parrafo{background: yellow;}
+    .h1{margin: 20px};
+  
+    
+  }
