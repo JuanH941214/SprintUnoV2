@@ -82,14 +82,14 @@
     flex-grow: 1;
   }
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 901px) and (max-width: 1280px) {
     .segundo-parrafo{flex-direction: column;}
     .segundo-parrafo{background: yellow;}
     
   }
   
   
-  @media (min-width: 400px) and (max-width: 767px) {
+  @media (min-width: 400px) and (max-width: 900px) {
     .sub-parrafo{flex-direction: column;}
     .segundo-parrafo{flex-direction: column;}
     .segundo-parrafo{background: yellow;}
